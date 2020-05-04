@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oxygen);
+
+body{
+    background-image: url("../images/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.ResultsFromApi{
+    max-height: 50%;
+}
+table.ResultsFromApi {
+    margin: 20px 0 0 0;
+    border-collapse: collapse;
+    background: #d9ded8;
+    opacity: 0.9;
+}
+
+table.ResultsFromApi th, table.ResultsFromApi td {
+    text-align: center;
+}
+
+table.ResultsFromApi thead {
+    line-height: 12px;
+    background: #000000;
+}
+
+table.ResultsFromApi thead th {
+    color: #fff;
+    padding: 8px;
+    letter-spacing: 1px;
+    vertical-align: bottom;
+}
+
+table.ResultsFromApi thead th:nth-child(2) {
+    width: 33%;
+}
+
+table.ResultsFromApi thead th:nth-child(3) {
+    width: 33%;
+}
+
+table.ResultsFromApi thead th:nth-child(4) {
+    width: 33%;
+
+}
+
+table.ResultsFromApi tbody {
+    font-size: 1em;
+    line-height: 15px;
+}
+
+table.ResultsFromApi tbody tr {
+    border-top: 2px solid rgba(0, 0, 0, 0.8);
+    transition: background 0.6s, color 0.6s;
+
+}
+
+table.ResultsFromApi tbody tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.2);
+
+}
+
+
+
+table.ResultsFromApi tbody td:first-child {
+    text-align: left;
+    padding-left: 20px;
+    background: rgba(217, 222, 216, 0.35);
+    transition: backgrounf 0.6s;
+
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 34px;
+        line-height: 36px;
+        padding-left: 15px;
+
+    }
+
+    article {
+        margin: 10px 15px;
+    }
+
+    table.ResultsFromApi {
+        font-size: 0.8em;
+
+    }
+}
+
+.button {
+    background-color:  #2196F3;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    margin-left: 43.5%;
+    margin-top: 200px;
+
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 100px;
+}
